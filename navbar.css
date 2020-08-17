@@ -1,0 +1,97 @@
+/*
+
+Link a paleta de colores :
+https://coolors.co/bcc7c2-cfdbd5-e8eddf-f5cb5c-242423-333533
+
+*/
+
+.stackedit {
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+
+.navbar-container {
+	height: 100vh;
+}
+
+.navbar {
+	overflow-y: scroll;
+	height: 100vh;
+	width: 25%;
+	padding-left: 10px;
+	position: fixed;
+	background: rgb(188,199,194);
+
+	background: rgb(207,219,213);
+	background: -moz-linear-gradient(180deg, rgba(207,219,213,1) 0%, rgba(232,237,223,1) 25%);
+	background: -webkit-linear-gradient(180deg, rgba(207,219,213,1) 0%, rgba(232,237,223,1) 25%);
+	background: linear-gradient(180deg, rgba(207,219,213,1) 0%, rgba(232,237,223,1) 25%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfdbd5",endColorstr="#e8eddf",GradientType=1);
+
+	box-shadow: 0 0px 15px rgba(0,0,0,0.3);
+}
+
+.navbar > ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.navbar > h1 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.navbar > ul > li {
+	margin-top: 5px;
+	border-bottom: 1px solid #BCC7C2;
+}
+
+.navbar > ul > li > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+}
+
+.navbar > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+.navbar>ul>li>ul {
+	margin: 0;
+	padding-left: 20px;
+	list-style-type: none;
+	height: auto;
+	max-height: 0px;
+	overflow-y: scroll;
+	transition: 0.5s;
+	transition-timing-function: max-height ease-in;
+}
+
+.navbar>ul>li:hover>ul {
+	max-height: 300px;
+}
+
+.navbar>ul>li>ul>li {
+	margin-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.navbar>ul>li>ul>li>a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+}
+
+.navbar>ul>li>ul>li>a:hover {
+	text-decoration: underline;
+}
+
+.stackedit__html {
+	margin-bottom: 180px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 7%;
+	padding-right: 7%;
+	max-width: 100%;
+	min-width: 0px;
+}
