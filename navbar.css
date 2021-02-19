@@ -4,6 +4,9 @@ Link a paleta de colores :
 https://coolors.co/bcc7c2-cfdbd5-e8eddf-f5cb5c-242423-333533
 
 */
+html {
+	scroll-behavior: smooth;
+}
 
 .stackedit {
 	display: grid;
